@@ -6,6 +6,6 @@
     android:layout_width="match_parent"
     android:background="@drawable/splash"
     android:layout_height="match_parent"
-    tools:context="com.example.nikant20.volleydemo.activity.SplashActivity">
+    tools:context="com.example.nikant20.volleydemo.activity.activity.SplashActivity">
 
 </android.support.constraint.ConstraintLayout>

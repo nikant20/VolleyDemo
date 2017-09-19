@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
-    tools:context="com.example.nikant20.volleydemo.activity.SignUpActivity">
+    tools:context="com.example.nikant20.volleydemo.activity.activity.SignUpActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -20,7 +20,7 @@
         />
 
     <TextView
-        android:id="@+id/textViewRegister"
+        android:id="@+id/tvRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Register Here.."
@@ -32,7 +32,7 @@
  />
 
     <EditText
-        android:id="@+id/editTextEmail"
+        android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
@@ -42,7 +42,7 @@
         />
 
     <EditText
-        android:id="@+id/editTextPassword"
+        android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
@@ -52,7 +52,7 @@
 />
 
     <EditText
-        android:id="@+id/editTextName"
+        android:id="@+id/etName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -63,7 +63,7 @@
  />
 
     <Button
-        android:id="@+id/buttonRegister"
+        android:id="@+id/btnRegister"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Register"
